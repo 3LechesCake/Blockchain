@@ -1,0 +1,19 @@
+[Unit]
+Description=Ethereum BNode
+After=syslog.target network.target
+Wants=network.target
+
+[Service]
+User=tresservice
+Group=tresservice
+Type=simple
+ExecStart=bootnode -nodekey boot.key -verbosity 7 -addr 147.182.143.50:30301
+
+KillMode=process
+KillSignal=SIGINT
+TimeoutStopSec=90
+Restart=always
+RestartSec=5s
+
+[Install]
+WantedBy=defaul.target
