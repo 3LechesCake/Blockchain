@@ -2,19 +2,21 @@
   "config": {
     "chainId": 6066,
     "homesteadBlock": 0,
+    "DAOForkBlock" : 0,
+    "DAOForkBlockSupport":true,
     "eip150Block": 0,
     "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "eip155Block": 0,
     "eip158Block": 0,
-    "byzantiumBlock": 4370000,
-    "constantinopleBlock": 7280000,
-    "petersburgBlock": 7280000,
-    "istanbulBlock": 9069000,
-	"muirglacierBlock": 9200000,
-    "berlinBlock": 12244000,
-    "londonBlock": 12965000,
-	"arrowglacierBlock": 13773000,
-	"grayglacierBlock": 15050000,
+    "byzantiumBlock": 0,
+    "constantinopleBlock": 0,
+    "petersburgBlock": 0,
+    "istanbulBlock": 0,
+	"muirglacierBlock": 0,
+    "berlinBlock": 0,
+    "londonBlock": 0,
+	"arrowglacierBlock": 0,
+	"grayglacierBlock": 0,
     "contractSizeLimit": 2147483647,
     "ethash": {}
   },
@@ -31,5 +33,7 @@
   "number": "0x0",
   "gasUsed": "0x0",
   "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-  "baseFeePerGas": null
+  "baseFeePerGas": "0x1"
+
 }
+
