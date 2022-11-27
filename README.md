@@ -6,7 +6,7 @@ RPC: https://rpc.tresleches.finance
 ChainID: 6066
 ChainIDHex: 0X17B3
 Name: TresLeches
-Symbol: 3Leches
+Symbol: TRESL
 Decimal: 18
 
 Explorer: https://explorer.tresleches.finance - In Development
@@ -17,7 +17,7 @@ RPC: https://rpc-test.tresleches.finance - In Development
 ChainID: 6065
 ChainIDHex: 0X17B2
 Name: TresLeches
-Symbol: 3Leches
+Symbol: TRESL
 Decimal: 18
 
 Explorer: https://explorer-test.tresleches.finance - In Development
