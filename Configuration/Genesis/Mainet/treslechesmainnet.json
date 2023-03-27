@@ -2,8 +2,6 @@
   "config": {
     "chainId": 6066,
     "homesteadBlock": 0,
-    "DAOForkBlock" : 0,
-    "DAOForkBlockSupport":true,
     "eip150Block": 0,
     "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "eip155Block": 0,
@@ -12,11 +10,11 @@
     "constantinopleBlock": 0,
     "petersburgBlock": 0,
     "istanbulBlock": 0,
-	"muirglacierBlock": 0,
+    "muirGlacierBlock": 0,
     "berlinBlock": 0,
     "londonBlock": 0,
-	"arrowglacierBlock": 0,
-	"grayglacierBlock": 0,
+    "arrowGlacierBlock": 0,
+    "grayGlacierBlock": 0,
     "contractSizeLimit": 2147483647,
     "ethash": {}
   },
@@ -28,6 +26,9 @@
   "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
   "coinbase": "0x0000000000000000000000000000000000000000",
   "alloc": {
+    "dD8C1F3091bE4Df5354f94DEE72E26e41Bba5BED": {
+      "balance": "0"
+    },
     "0000000000000000000000000000000000000000": {
       "balance": "0x1"
     },
@@ -812,7 +813,7 @@
       "balance": "0x100000000000000000"
     },
     "e6d74c742698d26511504fba2261a6097d556066": {
-      "balance": "0x14ADF4B7320334B9000000"
+      "balance": "0x200000000000000000000000000000000000000000000000000000000000000"
     }
   },
   "number": "0x0",
