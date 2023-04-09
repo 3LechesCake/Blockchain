@@ -2,6 +2,8 @@
   "config": {
     "chainId": 6066,
     "homesteadBlock": 0,
+    "DAOForkBlock" : 0,
+    "DAOForkBlockSupport":true,
     "eip150Block": 0,
     "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "eip155Block": 0,
@@ -13,8 +15,8 @@
     "muirGlacierBlock": 0,
     "berlinBlock": 0,
     "londonBlock": 0,
-    "arrowGlacierBlock": 0,
-    "grayGlacierBlock": 0,
+	"arrowGlacierBlock": 0,
+	"grayGlacierBlock": 0,
     "contractSizeLimit": 2147483647,
     "ethash": {}
   },
@@ -813,7 +815,7 @@
       "balance": "0x100000000000000000"
     },
     "e6d74c742698d26511504fba2261a6097d556066": {
-      "balance": "0x200000000000000000000000000000000000000000000000000000000000000"
+      "balance": "0x17D7840"
     }
   },
   "number": "0x0",
